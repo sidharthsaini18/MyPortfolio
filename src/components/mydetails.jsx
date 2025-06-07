@@ -12,8 +12,8 @@ import { TbBrandJavascript } from "react-icons/tb";
 const Mydetails = () => {
   return (
     <>
-      <h3 className="area-heading ">About me</h3>
-      <div className="line  m-2"> </div>
+      <h3 className="area-heading m-3">About me</h3>
+      <div className="line  m-3"> </div>
       <p className="m-4 fst-italic fs-6">
         👋 Hey there! I'm Sidharth, a passionate Frontend Developer specializing
         in building user-friendly and visually appealing web applications. I
@@ -33,8 +33,8 @@ const Mydetails = () => {
           clarity.
         </p>
       </p>
-      <h3>My Skills</h3>
-      <div className="line  m-2"> </div>
+      <h3 className="m-3">My Skills</h3>
+      <div className="line  m-3"> </div>
       <div className="row m-4   justify-content-center gap-3">
         <div className=" border border-secondary shadow rounded col-md-5">
           <FaHtml5 size={60} className="my-3" />
