@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+}
+.area {
+  background-color: rgb(36, 34, 34);
+  box-shadow: rgba(63, 63, 64, 0.761) 0px 1px 2px 0px,
+    rgba(68, 68, 68, 0.714) 0px 2px 6px 2px;
+  font-family: "Verdana, Geneva, Tahoma, sans-serif ";
+}
+.line {
+  width: 3rem;
+  border: 0.1rem solid yellow;
+}
