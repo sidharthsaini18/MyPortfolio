@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/header";
-import Sidebar from "..components/Sidebar";
+import Sidebar from "../components/Sidebar";
 
 const Master = () => {
   return (
