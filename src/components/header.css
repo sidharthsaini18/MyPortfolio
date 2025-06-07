@@ -7,3 +7,7 @@
 .ul li {
   margin: 1rem;
 }
+ul li a {
+  color: white;
+  text-decoration: none;
+}
