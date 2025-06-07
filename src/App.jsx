@@ -1,11 +1,14 @@
 import React from "react";
-import Master from "./components/master";
+import Header from "./components/header";
+import Sidebar from "./components/Sidebar";
+
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Master />
+      <Header />
+      <Sidebar />
     </>
   );
 }

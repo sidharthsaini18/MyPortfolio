@@ -7,7 +7,7 @@ const Projects = () => {
     <div className="area">
       <h3 className="fs-3 fw-1 mx-3">Projects</h3>
       <div className="line mx-3"></div>
-      <div className=" cardd d-lg-flex justify-content-evenly border">
+      <div className=" cardd d-lg-flex justify-content-evenly ">
         {projectData.map((pData) => (
           <Card
             id={pData.id}
