@@ -56,7 +56,7 @@ const Resume = () => {
 
         <div className="d-flex w-100  justify-content-center">
           <a
-            href="https://drive.google.com/file/d/1Siq2cFOKMZX4PVDhEJOLnt2T5bzQ3wow/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1WNxgIOXOTf39bPSi9uw_QPKVPEpCVeXi/view?usp=sharing"
             className="btn btn-outline-warning position-relative top-50 left-50 my-3"
           >
             View Full Resume!
