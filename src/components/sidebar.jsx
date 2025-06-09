@@ -4,6 +4,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa6";
 import Mydetails from "./mydetails.jsx";
 import Resume from "./resume.jsx";
 import Projects from "./projects.jsx";
+import Connect from "./connect.jsx";
 
 const Sidebar = () => {
   return (
@@ -61,6 +62,7 @@ const Sidebar = () => {
         <Mydetails />
         <Resume />
         <Projects />
+        <Connect />
       </div>
     </div>
   );
