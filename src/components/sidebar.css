@@ -9,9 +9,9 @@
   overflow-y: auto;
 }
 .myimg {
-  width: 40%;
+  width: 18vh;
   border-radius: 26rem;
-  height: 6.5rem;
+  height: 6rem;
 }
 .job {
   font-size: 0.9rem;
@@ -35,9 +35,9 @@
     position: relative;
     top: 0;
     overflow-y: hidden;
-    height: 70vh;
+    height: 120vh;
   }
   .myimg {
-    height: 8rem;
+    width: 22vh;
   }
 }

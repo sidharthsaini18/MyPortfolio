@@ -10,7 +10,7 @@ const Sidebar = () => {
   return (
     <div className="row">
       <div
-        className="sidebar   mx-md-5 my-2 rounded col-md-3 d-flex flex-column align-items-center "
+        className="sidebar  mx-md-5 my-2 rounded col-md-3 d-flex flex-column align-items-center "
         // style={{ top: "60px", height: "calc(115vh - 60px)", overflowY: "auto" }}
       >
         <img className=" myimg m-2" src="/assets/sidh.jpg" alt="image" />
@@ -58,7 +58,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <div className=" area rounded my-1  col-md-7 ">
+      <div className=" area rounded my-1  col-md-7 p-0">
         <Mydetails />
         <Resume />
         <Projects />
