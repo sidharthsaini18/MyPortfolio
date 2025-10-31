@@ -5,6 +5,7 @@ import Mydetails from "./mydetails.jsx";
 import Resume from "./resume.jsx";
 import Projects from "./projects.jsx";
 import Connect from "./connect.jsx";
+import { Analytics } from "@vercel/analytics/react";
 
 const Sidebar = () => {
   return (
@@ -61,6 +62,7 @@ const Sidebar = () => {
       <div className=" area rounded my-1  col-md-7 p-0">
         <Mydetails />
         <Resume />
+        <Analytics />
         <Projects />
         <Connect />
       </div>
