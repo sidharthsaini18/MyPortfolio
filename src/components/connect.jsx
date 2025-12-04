@@ -1,6 +1,7 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+// src/components/Connect.jsx
+import React, { useRef, useState, useEffect } from "react";
 import toast from "react-hot-toast";
+import { initEmailJS, sendContactForm } from "../email";
 
 const Connect = () => {
   const [inputData, setInputData] = useState({
@@ -10,7 +11,12 @@ const Connect = () => {
   });
 
   const [errors, setErrors] = useState({});
-  const form = useRef();
+  const form = useRef(null);
+
+  useEffect(() => {
+    // initialize EmailJS with PUBLIC_KEY from env
+    initEmailJS();
+  }, []);
 
   const validate = () => {
     const newErrors = {};
@@ -37,24 +43,21 @@ const Connect = () => {
     setInputData({ ...inputData, [e.target.name]: e.target.value });
   };
 
-  const sendEmail = (e) => {
-    e.preventDefault(); // Prevent default form submission
+  const sendEmail = async (e) => {
+    e.preventDefault();
 
-    if (!validate()) return; // Stop submission if validation fails
+    if (!validate()) return;
 
-    emailjs
-      .sendForm("service_g4y8jf7", "template_5b6aepp", form.current, {
-        publicKey: "dC6VuwSSGzZlEkV6C",
-      })
-      .then(
-        () => {
-          toast.success("Successfully sent!");
-          setInputData({ from_name: "", from_email: "", message: "" }); // Clear form after success
-        },
-        (error) => {
-          toast.error("Failed to send...", error.text);
-        }
-      );
+    try {
+      await sendContactForm(form.current);
+      toast.success("Successfully sent!");
+      setInputData({ from_name: "", from_email: "", message: "" });
+    } catch (err) {
+      console.error("EmailJS send error:", err);
+      // EmailJS errors sometimes are an object, handle gracefully:
+      const errText = err && err.text ? err.text : err.message || "Unknown error";
+      toast.error("Failed to send: " + errText);
+    }
   };
 
   return (
