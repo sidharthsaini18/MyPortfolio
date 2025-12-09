@@ -4,7 +4,7 @@ import "./header.css";
 function Header() {
   return (
     <nav className="navbar navbar-primary text-white bg-black w-100 container ">
-      <h2 className="mx-3 ">Portfilio</h2>
+      <h2 className="mx-2 pt-2 ">Portfilio</h2>
       <ul className=" ul  d-none d-md-flex ">
         <li>
           <a

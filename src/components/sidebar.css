@@ -10,8 +10,9 @@
 }
 .myimg {
   width: 18vh;
-  border-radius: 26rem;
-  height: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  height: 18vh;
 }
 .job {
   font-size: 0.9rem;
@@ -35,9 +36,10 @@
     position: relative;
     top: 0;
     overflow-y: hidden;
-    height: 120vh;
+    height: auto;
+    padding: 1rem;
   }
   .myimg {
-    width: 22vh;
+    background-size: contain;
   }
 }
