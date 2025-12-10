@@ -4,9 +4,9 @@ import Card from "./card";
 
 const Projects = () => {
   return (
-    <div className="area">
-      <h3 className="fs-3 fw-1 mx-3">Projects</h3>
-      <div className="line mx-3"></div>
+    <div className="area py-3">
+      <h3 className="fs-3 fw-1 mx-3 px-2">Projects</h3>
+      <div className="line mx-4"></div>
       <div className=" cardd d-lg-flex justify-content-evenly ">
         {projectData.map((pData) => (
           <Card

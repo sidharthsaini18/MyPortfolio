@@ -17,7 +17,7 @@ function Header() {
         <li>
           <a
             className="btn btn-outline-secondary "
-            href="https://drive.google.com/file/d/1Siq2cFOKMZX4PVDhEJOLnt2T5bzQ3wow/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1WYHcVZT9-abJ2hyEDIiw6Vf5D_dj2Hxz/view?usp=sharing"
           >
             Resume
           </a>
