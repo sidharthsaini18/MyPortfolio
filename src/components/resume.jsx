@@ -12,6 +12,17 @@ const Resume = () => {
             <GiBookshelf size={30} className="m-3" />
             <span className="fs-4 fw-4 my-2"> ACADEMIC DETAILS:</span>
           </div>
+<h5 className="text-bold fw-2  ">
+            {" "}
+            <PiStudentFill size={35} />
+            MASTERS OF COMPUTER APPLICATIONS (MCA):{"  "}
+            <mark className="bg-success text-white">2025-2027</mark>
+          </h5>
+          <p className=" mx-4 my-2 fs-6 ">
+            Unversity : Chandigarh Unversity Online
+          </p>
+          <p className=" mx-4 my-2 fs-6 ">Current CGPA : Not Declared</p>
+
           <h5 className="text-bold fw-2  ">
             {" "}
             <PiStudentFill size={35} />

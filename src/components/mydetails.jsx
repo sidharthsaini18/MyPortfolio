@@ -6,6 +6,9 @@ import {
   FaReact,
   FaGithub,
   FaAddressCard,
+  FaPython,
+  FaDatabase,
+  FaChartBar,
 } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 
@@ -53,8 +56,7 @@ const Mydetails = () => {
           <span className="text-warning fs-4 fw-4">CSS</span>
           <p className="fs-6  w-100">
             {"  "}
-            The foundation of web structure, utilizing semantic elements for
-            accessibility and SEO.
+            CSS styles layout and design, with responsive, accessible rules and clean cascades neatly.
           </p>
         </div>
 
@@ -64,8 +66,7 @@ const Mydetails = () => {
           <span className="text-warning fs-4 fw-4">JavaScript</span>
           <p className="fs-6  w-100">
             {"  "}
-            The foundation of web structure, utilizing semantic elements for
-            accessibility and SEO.
+           JavaScript powers interactivity, handling events, dynamic DOM updates, async logic, and modern web apps.
           </p>
         </div>
 
@@ -75,8 +76,7 @@ const Mydetails = () => {
           <span className="text-warning fs-4 fw-4">REACT JS</span>
           <p className="fs-6  w-100">
             {"  "}
-            The foundation of web structure, utilizing semantic elements for
-            accessibility and SEO.
+            ReactJS builds dynamic UIs, with reusable components, virtual DOM, hooks, and efficient state management  
           </p>
         </div>
         <div className=" border border-secondary shadow rounded col-md-5">
@@ -85,8 +85,7 @@ const Mydetails = () => {
           <span className="text-warning fs-4 fw-4">GIT/GITHUB</span>
           <p className="fs-6  w-100">
             {"  "}
-            The foundation of web structure, utilizing semantic elements for
-            accessibility and SEO.
+           Git/GitHub manage code with version control, enabling collaboration, branching, merging, and transparent project history.
           </p>
         </div>
         <div className=" border border-secondary shadow rounded col-md-5">
@@ -95,10 +94,64 @@ const Mydetails = () => {
           <span className="text-warning fs-4 fw-4">UI/UX</span>
           <p className="fs-6  w-100">
             {"  "}
-            The foundation of web structure, utilizing semantic elements for
-            accessibility and SEO.
+            UI/UX crafts intuitive interfaces, blending visual design, usability, accessibility, and seamless user-centered experiences
           </p>
         </div>
+
+
+
+      <div className=" border border-secondary shadow rounded col-md-5">
+          <FaPython  size={60} className="my-3" />
+          {"  "}
+          <span className="text-warning fs-4 fw-4">Python</span>
+          <p className="fs-6  w-100">
+            {"  "}
+           python empowers versatile programming, with simple syntax, vast libraries, data analysis, AI, and web development.
+          </p>
+        </div>
+
+
+        <div className=" border border-secondary shadow rounded col-md-5">
+          <FaDatabase size={60} className="my-3" />
+          {"  "}
+          <span className="text-warning fs-4 fw-4">SQL</span>
+          <p className="fs-6  w-100">
+            {"  "}
+            The language of databases, managing queries, joins, CRUD, and relational integrity.
+          </p>
+        </div>
+
+
+        <div className=" border border-secondary shadow rounded col-md-5">
+          <FaDatabase size={60} className="my-3" />
+          {"  "}
+          <span className="text-warning fs-4 fw-4">MongoDB</span>
+          <p className="fs-6  w-100">
+            {"  "}
+           The flexible NoSQL database, storing data in JSON-like documents for scalability, speed, and modern applications.
+          </p>
+        </div>
+
+
+
+        <div className=" border border-secondary shadow rounded col-md-5">
+          <FaChartBar size={60} className="my-3" />
+          {"  "}
+          <span className="text-warning fs-4 fw-4">PowerBi</span>
+          <p className="fs-6  w-100">
+            {"  "}
+            The business intelligence platform, transforming raw data into interactive dashboards, visual insights, and informed decisions.
+          </p>
+        </div>
+
+
+      
+
+
+      
+
+
+   
       </div>
     </>
   );
